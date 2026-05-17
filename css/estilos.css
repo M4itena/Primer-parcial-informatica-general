@@ -1,9 +1,10 @@
 /*SELECTOR UNIVERSAL*/
 *{
     body{
+        background-image: url(/imagenes/fondo.png);
+        box-sizing: border-box;
         font-family: "Barlow", sans-serif;
         font-size: medium;
-         box-sizing: border-box;
     }
     p ,h1 ,h2 ,h3 ,ul ,ol ,q{
         text-align: center;
@@ -16,11 +17,11 @@
     margin: 5em;
     padding: 5em;
 }
-body{
-    background-image: url(/imagenes/fondo.png);
-}
 /*ENCABEZADO*/
-
+.encabezado{
+    background-color: rgb(138, 177, 228);
+    padding: 0.4em 1em;
+}
 /*NAVEGADOR*/
     .navegador ul{
         margin: 0;
@@ -38,10 +39,30 @@ body{
         text-decoration: none;
     }
     nav a:link {
-	background-color: rgb(131, 172, 226);
+	background-color: rgb(104, 159, 231);
 	color: rgb(2, 9, 71);
     }
 /*MAIN*/
+/*Listas*/
+.unolista ul,li,h3{
+    text-align: left;
+}
+/*Imagenes*/
+.imagenindex, .imagenesuno,.imagenesdos, .videodos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+}
 /*PARRAFOS, TITULOS Y LISTAS*/
-
 /*PIE DE PAGINA*/
+.piedepagina{
+    background-color: rgb(138, 177, 228);
+    padding: 2em 9em;
+    margin: 1em;
+}
+.piedepagina address{
+    text-align: center;
+    color: rgb(11, 55, 112);
+}
